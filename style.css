@@ -1,0 +1,100 @@
+body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        .container {
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fbfdfd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 50px;
+            font-family: Playfair;
+            margin: 0px;
+        }
+
+        h2 {
+            background-color: silver;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            color: rgb(7, 7, 7);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            /* margin: 10px 0; */
+        }
+
+        li {
+            /* margin-bottom: 5px; */
+        }
+
+        /* Grid layout for Skills, Certificates, and Contact sections */
+        .section-content {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+        }
+
+        .section-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section-content ul li {
+            margin-bottom: 5px;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .contact-item {
+            text-align: center;
+        }
+   
+        .date {
+            text-align: right;
+        }
+
+        .percentage {
+            text-align: right;
+        }
+
+        .education-item, .internship-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .date {
+                text-align: left;
+            }
+
+            .percentage {
+                text-align: left;
+            }
+        }
+        /* Grid layout end */
+    </style>
